@@ -1,0 +1,7 @@
+interface:
+  display_name: "決算カレンダー"
+  short_description: "マネックス証券の米国株保有銘柄から直近の決算予定を確認"
+  default_prompt: "Use $earnings-calendar to check earnings dates for my U.S. stock holdings."
+
+policy:
+  allow_implicit_invocation: false

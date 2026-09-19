@@ -1,0 +1,7 @@
+interface:
+  display_name: "市場変動要因分析"
+  short_description: "市場の変動理由をマクロ、セクター、個別材料の順に調査"
+  default_prompt: "Use $market-change-analysis to investigate why this market price moved."
+
+policy:
+  allow_implicit_invocation: false

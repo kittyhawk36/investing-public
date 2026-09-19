@@ -1,0 +1,7 @@
+interface:
+  display_name: "ポートフォリオ価格確認"
+  short_description: "マネックス証券から米国株の現在値と評価損益を取得"
+  default_prompt: "Use $portfolio-price-check to check my U.S. stock holdings and unrealized gains or losses."
+
+policy:
+  allow_implicit_invocation: false
