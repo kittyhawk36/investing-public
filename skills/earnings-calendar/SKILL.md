@@ -1,7 +1,7 @@
 ---
 name: earnings-calendar
 description: |
-  ユーザーが /earnings-calendar または $earnings-calendar と明示したときに使うスキル。
+  ユーザーが /earnings-calendar、@earnings-calendar、または $earnings-calendar と明示したときに使うスキル。
   マネックス証券プラグインから米国株の保有銘柄を取得し、次回決算日を確認して、
   本日から1ヶ月以内に決算がある銘柄をリストアップする。
 ---
@@ -9,7 +9,7 @@ description: |
 # earnings-calendar スキル
 
 ## トリガー
-ユーザーが `/earnings-calendar` または `$earnings-calendar` と明示したときのみ実行する。
+ユーザーが `/earnings-calendar`、`@earnings-calendar`、または `$earnings-calendar` と明示したときのみ実行する。
 
 ## STEP 1: 保有銘柄の取得
 

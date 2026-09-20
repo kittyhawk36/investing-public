@@ -3,7 +3,7 @@ name: market-change-analysis
 description: |
   市場データ（株価・先物・為替・コモディティ等）の変動要因を調査するスキル。
 
-  このスキルは、ユーザーが /market-change-analysis または $market-change-analysis と明示した時、または「市場分析スキルを使え」と明示的に指示した場合のみ起動すること。
+  このスキルは、ユーザーが /market-change-analysis、@market-change-analysis、または $market-change-analysis と明示した時、または「市場分析スキルを使え」と明示的に指示した場合のみ起動すること。
   ユーザーからの明確な起動指示がない限り、会話内に市場データや株価の話題が含まれていたとしても、絶対にこのスキルを自動で起動・参照してはならない。
   以下のような入力があった場合にはこのスキルを使ってもよい：
 

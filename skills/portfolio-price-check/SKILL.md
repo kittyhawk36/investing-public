@@ -1,7 +1,7 @@
 ---
 name: portfolio-price-check
 description: |
-  ユーザーが /portfolio-price-check または $portfolio-price-check と明示したときに使うスキル。
+  ユーザーが /portfolio-price-check、@portfolio-price-check、または $portfolio-price-check と明示したときに使うスキル。
   マネックス証券プラグインから口座サマリーと米国株保有残高を取得し、
   各銘柄について、プラグインから取得できた取得単価、現在値、評価損益を表示する。
 ---
@@ -9,7 +9,7 @@ description: |
 # portfolio-price-check スキル
 
 ## トリガー
-ユーザーが `/portfolio-price-check` または `$portfolio-price-check` と明示したときのみ実行する。
+ユーザーが `/portfolio-price-check`、`@portfolio-price-check`、または `$portfolio-price-check` と明示したときのみ実行する。
 
 ## STEP 1: 口座情報の取得
 
